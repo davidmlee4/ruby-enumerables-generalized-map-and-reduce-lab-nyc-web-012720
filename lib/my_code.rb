@@ -22,4 +22,5 @@ def reduce(source_array, sv=nil)
     total = yield(total,source_array[i]) #yield means pass each element through the block
     i += 1
   end
+  total
 end
