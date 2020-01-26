@@ -15,7 +15,7 @@ def reduce(source_array, sv=nil)
     total = sv
     i = 0
   else
-    total = source_array[0]
+    total = source_array[0] #since no starting value, the running total starts with 1st element
     i = 1
   end
   while i < source_array.length do
