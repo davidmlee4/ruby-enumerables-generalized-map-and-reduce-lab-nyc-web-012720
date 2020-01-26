@@ -19,7 +19,7 @@ def reduce(source_array, sv=nil)
     i = 1
   end
   while i < source_array.length do
-    total = yield(total,source_array[i]) #yield means pass blocks through 
+    total = yield(total,source_array[i]) #yield means pass each element through the block
     i += 1
   end
 end
